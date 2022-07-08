@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid rgba(180, 169, 169, 0.534);
+}
+
+.marca {
+    margin-right: 52%;
+    margin-top: 1.22%;
+}
+
+.botao {
+    display: flex;
+    margin-right: 13%;
+    margin-top: 1.5%;
+
+}
+
+.botoes {
+    display: flex;
+    margin-right: 5%;
+    display: flex;
+}
+
+button {
+    color: aliceblue;
+    width: 150px;
+    height: 40px;
+    background-color: #0A99FE;
+    margin: 12px;
+    font-size: 20px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 8px;
+    font-family: 'Roboto', sans-serif;
+}
+
+button:hover {
+    background-color: #93d2ff;
+    color: #0A99FE;
+}
+
+.listaActionsFigures {
+    display: flex;
+    list-style: none;
+    overflow-x: auto;
+    width: 150%;
+}
+
+.listaPaintings {
+    display: flex;
+    list-style: none;
+    overflow-x: auto;
+    width: 150%;
+}
+
+.produtosPaintings {
+    width: 207px;
+    height: 275px;
+    align-items: center;
+    flex-direction: column;
+    padding: auto;
+    justify-content: center;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+}
+
+.produtosActionsFigures {
+    width: 207px;
+    height: 275px;
+    align-items: center;
+    flex-direction: column;
+    padding: auto;
+    justify-content: center;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nomePaintings {
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px medium;
+    font-size: 103%;
+}
+
+.nomeActionsFigures {
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px medium;
+    font-size: 103%;
+}
+
+.valorActionsFigures {
+    color: #868383;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px larger;
+    margin-top: 13%;
+}
+
+.valorPaintings {
+    color: #868383;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px larger;
+    margin-top: 13%;
+}
+
+.detalhesPaintings {
+    height: 57%;
+    width: 88%;
+    border-radius: 8px;
+    background-color: #a8a4a4;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 12%;
+    display: flex;
+}
+
+.detalhesActionsFigures {
+    height: 57%;
+    width: 88%;
+    border-radius: 8px;
+    background-color: #a8a4a4;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 12%;
+    display: flex;
+}
+
+.tituloPaintings {
+    color: #1B1B1B;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px larger;
+}
+
+.tituloActionsFigures {
+    color: #1B1B1B;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px larger;
+}
+
+
+.paintingsImg {
+    border-radius: 8px;
+    width: 79%;
+    height: 35%;
+
+}
+
+.ActionsFiguresImg {
+    border-radius: 8px;
+    width: 79%;
+    height: 35%;
+}
