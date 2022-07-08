@@ -116,8 +116,9 @@ button:hover {
     font-family: 'Roboto', sans-serif;
     align-items: center;
     justify-content: center;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
     flex-direction: column;
-    margin-top: 12%;
     display: flex;
 }
 
@@ -129,8 +130,9 @@ button:hover {
     font-family: 'Roboto', sans-serif;
     align-items: center;
     justify-content: center;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
     flex-direction: column;
-    margin-top: 12%;
     display: flex;
 }
 
@@ -149,13 +151,17 @@ button:hover {
 
 .paintingsImg {
     border-radius: 8px;
-    width: 79%;
-    height: 35%;
+    width: 181px;
+    height: 50%;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
 
 }
 
 .ActionsFiguresImg {
     border-radius: 8px;
-    width: 79%;
-    height: 35%;
+    width: 181px;
+    height: 50%;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
 }
